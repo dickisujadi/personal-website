@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type = "text/javascript" src="js/func.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <section id="dashboard">
+        <div class="logo">D</div>
+        <div id="body-container">
+            <p id="ds-hello">HELLO! IT IS</p>
+            <p id="ds-big">DICKI SUJADI</p>
+        </div>
+        <a href="#home" id="foot-container">LET'S GO</a>
+    </section>
+    <div id="content-container">
+        <section id="home">
+            <p id="text-resume">I am a <span class="text-highlight">Software Engineer</span> with more than 3 years experience in <span class="text-highlight">C#</span>, <span class="text-highlight">ASP .Net</span> and <span class="text-highlight">JavaScript Framework</span>, <span class="text-highlight">Certified in Scrum Agile Foundation</span>, and loved to design user interface, systems, and collaborate with developers in any backgrounds and experts.</p>
+            <a href="#portfolios" id="view-work-button">VIEW WORK</a>
+        </section>
+        <section id="portfolios">
+            <div class="section-header">Portfolios</div>
+            <div id="portfolios-content-container" class="up-bottom-line-container">
+                <div class="portfolios-content">
+                    <p class="head-content">Lexus</p>
+                    <p class="body-content">Content Management System</p>
+                    <p class="foot-content">2021</p>
+                </div>
+                <div class="portfolios-content">
+                    <p class="head-content">HM Sampoerna</p>
+                    <p class="body-content">Sales Management System</p>
+                    <p class="foot-content">2020</p>
+                </div>
+                <div class="portfolios-content">
+                    <p class="head-content">Mitsubishi</p>
+                    <p class="body-content">Sales Management System</p>
+                    <p class="foot-content">2018</p>
+                </div>
+                <div class="portfolios-content">
+                    <p class="head-content">Jawdat</p>
+                    <p class="body-content">NFV Module</p>
+                    <p class="foot-content">2017</p>
+                </div>
+                <div class="portfolios-content">
+                    <p class="head-content">Indosat</p>
+                    <p class="body-content">SuperWifi</p>
+                    <p class="foot-content">2012</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div id="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                </div>
+            </div>
+            <a href="#" id="details-button">DETAILS</a>
+        </section>
+        <section id="resume">
+            <div class="section-header">Resume</div>
+            <div>
+                <div class=".up-bottom-line-container">
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#portfolios-content-container').slick({
+                autoplay: true,
+                autoplaySpeed: 2500
+            });
+        });
+    </script> -->
+</body>
+</html>
